@@ -1,0 +1,33 @@
+{
+  "name": "lit-legacy-component",
+  "description": "Webcomponent lit-legacy-component following open-wc recommendations",
+  "license": "MIT",
+  "author": "lit-legacy-component",
+  "version": "1.0.1",
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "exports": {
+    ".": "./dist/index.js",
+    "./define.js": "./dist/lit-legacy-component.js"
+  },
+  "files": [
+    "dist",
+    "src"
+  ],
+  "scripts": {
+    "start": "wds --node-resolve --app-index demo/index.html --open",
+    "tsc": "tsc",
+    "clean": "rimraf ./tsconfig.build.tsbuildinfo && rimraf ./dist"
+  },
+  "dependencies": {
+    "lit-element": "^2.2.1",
+    "lit-legacy-css-package": "^1.0.0"
+  },
+  "devDependencies": {
+    "@web/dev-server": "^0.1.28",
+    "tslib": "^2.3.1",
+    "typescript": "^4.5.2",
+    "lit-html": "^1.0.0"
+  },
+  "customElements": "custom-elements.json"
+}

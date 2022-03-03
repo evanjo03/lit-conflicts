@@ -3,7 +3,7 @@
   "description": "Webcomponent root-component following open-wc recommendations",
   "license": "MIT",
   "author": "root-component",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "main": "dist/index.js",
   "module": "dist/index.js",
   "exports": {
@@ -12,11 +12,13 @@
   },
   "scripts": {
     "analyze": "cem analyze --litelement",
+    "start": "wds --node-resolve --app-index demo/index.html --open",
     "tsc": "tsc",
     "clean": "rimraf ./tsconfig.build.tsbuildinfo && rimraf ./dist"
   },
   "dependencies": {
-    "lit": "^2.0.2"
+    "lit": "^2.0.2",
+    "lit-legacy-component": "^1.0.0"
   },
   "devDependencies": {
     "@custom-elements-manifest/analyzer": "^0.4.17",
