@@ -1,0 +1,13 @@
+{
+  "name": "root",
+  "private": true,
+  "devDependencies": {
+    "lerna": "^4.0.0",
+    "@web/dev-server": "^0.1.28",
+    "@web/dev-server-storybook": "next"
+  },
+  "scripts": {
+    "storybook": "wds -c .storybook/server.mjs",
+    "start": "wds --node-resolve --app-index demo/index.html --open"
+  }
+}
