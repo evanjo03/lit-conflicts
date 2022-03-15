@@ -1,6 +1,6 @@
 # lit-conflicts
 
-The gist of the issue is, I have a package that I am upgrading to lit 2.  That package has a custom element dependency that uses lit 1.  This legacy element also has a dependency on a package that is vending a CSS template that it is consuming as part of its styles.  Here's the dependency structure:
+The gist of the issue is, I have a package that is using lit 2.  That package has a custom element dependency that uses lit 1.  This legacy element also has a dependency on a package that is vending a CSS template that it is consuming as part of its styles.  Here's the dependency structure:
 
 ```bash
 ───root-component
