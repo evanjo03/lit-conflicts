@@ -7,7 +7,7 @@ The gist of the issue is, I have a package that I am upgrading to lit 2.  That p
     ├───lit-legacy-component
     │   ├───lit-element@^2.2.1
     │   ├───lit-html@^1.0.0
-    │   └───lit-legacy-css-package
+    |   └───lit-legacy-css-package
     |       ├───lit-html@^1.0.0
     │       └───lit-element@^2.2.1
     └───lit@^2.0.0
