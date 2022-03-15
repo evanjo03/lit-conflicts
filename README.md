@@ -17,7 +17,7 @@ The gist of the issue is, I have a package that is using lit 2.  That package ha
 
 When I serve the root-component, I receive the following error, which seems to suggest that the CSSResults are incompatible:
 
-![lit_css_error](https://user-images.githubusercontent.com/42701217/156805278-f6ee5a06-b70b-4b28-93e0-661cd16f9758.JPG)
+![image](https://user-images.githubusercontent.com/42701217/158411401-f6c9ba75-cbb4-4c15-92fa-c8b1e9f755ff.png)
 
 # Steps to Recreate
 
